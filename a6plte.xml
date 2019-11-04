@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86"/>
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86"/>
+  <remove-project name="platform/prebuilts/go/darwin-x86"/>
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  <remove-project name="platform/prebuilts/libs/libedit" />
+  <remove-project name="platform/sdk" />
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+
+  <project name="Junak/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="lineage-16.0" />
+  <project name="Junak/android_kernel_samsung_a6plte" path="kernel/samsung/a6plte" remote="github" revision="pie-3.18" />
+  <project name="Junak/android_device_samsung_a6plte" path="device/samsung/a6plte" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-16.0"/>
+</manifest>
